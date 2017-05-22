@@ -1,8 +1,8 @@
 import { createStore } from 'redux';
-import AppReducers from './redux/reducers';
+import AppReducers from './reducers';
 
 const store = createStore(
   AppReducers
 )
 
-export store
+export default store
